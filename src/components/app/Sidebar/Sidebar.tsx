@@ -88,6 +88,7 @@ function Header() {
               <Accordion allowToggle>
                   <AccordionMenu number="1" icon={faUserGroup} name="Account">
                       <Menu to="/app/account/profile" number="1.1" name="Profile" />
+                      <Menu to="/app/account/password" number="1.2" name="Password" />
                   </AccordionMenu>
                   <AccordionMenu number="2" icon={faUserGroup} name="Management">
                       <Menu to="/app/manage/create-agent" number="2.1" name="Create Agent" />
