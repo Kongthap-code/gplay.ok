@@ -14,7 +14,7 @@ import { IconProp } from "@fortawesome/fontawesome-svg-core"
 import { faArrowLeft, faChartSimple, faCoins, faListOl, faQuestion, faRectangleList, faUserGroup } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { ReactNode } from "react"
-import { Link, useLocation, useRoute } from "wouter"
+import { Link , useRoute } from "wouter"
 
 interface MenuProps {
   to: string,

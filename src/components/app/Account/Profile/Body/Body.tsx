@@ -115,30 +115,6 @@ function BasicInfo() {
                   </Flex>
                 </FormControl>
               </Flex>
-
-              <Flex direction="column" py="15px">
-                <Box fontSize="19px" fontWeight="300">Agent Management</Box>
-              </Flex>
-
-              <Flex color="#1F2532" fontSize="14px" direction="column" justifyContent="center" alignItems="center">
-                <Management />
-              </Flex>
-
-              <Flex direction="column" py="15px">
-                <Box fontSize="19px" fontWeight="300">Whitelist IP</Box>
-              </Flex>
-              <Whitelist />
-              <WhitelistInfo />
-              <FormControl my="1">
-                <Flex justifyContent='center' alignItems='center'>
-                  <Box px="3" w="80px" textAlign="end">
-                  </Box>
-                  <Button type="submit" fontSize="12px" color="#fff" h="35px" bg="#cfa137" _hover={{ bg: "#cfa1377a" }} mt="2" fontWeight="400">
-                    Save
-                  </Button>
-                </Flex>
-              </FormControl>
-
             </Form>
           </Box>
 
