@@ -1,7 +1,7 @@
 import Body from "@/components/app/Account/Password/Body"
 
-function Profile() {
+function Password() {
     return <Body />
 }
 
-export default Profile
+export default Password

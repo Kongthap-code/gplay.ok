@@ -92,7 +92,7 @@ function Header() {
                   </AccordionMenu>
                   <AccordionMenu number="2" icon={faUserGroup} name="Management">
                       <Menu to="/app/manage/create-agent" number="2.1" name="Create Agent" />
-                      <Menu to="/app/manage/create-member" number="2.2" name="Create Member" />
+                      <Menu to="/app/manage/members-agents" number="2.2" name="Members & Agents" />
                       <Menu to="/app/manage/create-agent/member-list" number="2.2" name="Create Agent/Member List" />
                       <Menu to="/app/manage/present-pt" number="2.3" name="Present PT" />
                       <Menu to="/app/manage/sub-account" number="2.4" name="Sub Account" />
